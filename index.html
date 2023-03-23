@@ -7,75 +7,46 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Portfólio Inicial em HTML</title>
 
-    <style>
-
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #2B2d42;
-            color: #f8f7f9;
-            margin: 30px;
-        }
-
-        h1 {
-            font-family: 'Roboto';
-            letter-spacing: 3px;
-            font-size: 60px;
-        }
-
-        p {
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            font-style: italic;
-            line-height: 30px;
-        }
-
-        .elements {
-            font-style: italic;
-            font-size: 20px;
-            line-height: 50px;
-        }
-
-        .display {
-            display: flex;
-        }
-        .display h1 {
-            position: absolute;
-            left: 30%;
-            top: 10%;
-        }
-
-        a {
-            color: #f8f7f9;
-            font-size: 30px;
-            display: flex;
-            justify-content: center;
-        }
-
-    </style>
 </head>
 <body>
-    <div class="display">
-        <a href="/unnamed.png"><img src="/unnamed.png" alt="Foto de apresentação do portfólio" style="border-radius: 50%;"></a>
+    <div class="name">
         <h1>Leonardo Ganin Pontes</h1>
     </div>
     <hr>
+    <div class="profile-img">
+        <a href="/unnamed.png"><img src="/unnamed.png" alt="Foto de apresentação do portfólio"></a>
+    </div>
 
-    <h2>Breve descrição</h2>
-    <p>Brasileiro, residente da cidade de <strong>Joinville/SC</strong>, sou um profissional em transição de carreira que busca formação de desenvolvimento web na escola para desenvolvedores <strong>Trybe</strong>!</p>
+    <div class="description">
+        <p>Brasileiro, 33 anos, residente da cidade de <strong>Joinville/SC</strong>, sou um profissional em transição de carreira que busca formação de desenvolvimento web na escola para desenvolvedores <strong>Trybe</strong>! Atualmente trabalhando como freelancer em Web Design.</p>
+    </div>
     
+    </div>
+
     <hr>
 
-    <h2>Habilidades</h2>
-    <ul>
-        <li class="elements">HTML</li>
-        <li class="elements">CSS</li>
-        <li class="elements">JAVASCRIPT</li>
-        <li class="elements">REACT</li>
-        <li class="elements">NODE.JS</li>
-    </ul>
+    <div class="habilidades">
+        <h2>Habilidades</h2>
+        <ul class="elements">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>REACT</li>
+            <li>NODE.JS</li>
+        </ul>
+    </div>  
 
-    <a href="http://linkedin.com/leoponteswd" target="_blank">Linkedin</a>
+    <hr>
+
+    <h2>Links</h2>
+    <div class="links">
+        <a href="http://linkedin.com/leoponteswd" target="_blank">Linkedin</a>
+        <a href="http://linkedin.com/leoponteswd" target="_blank">GitHub</a>
+        <a href="http://linkedin.com/leoponteswd" target="_blank">Facebook</a>
+    </div>
 
 
 </body>
